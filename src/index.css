@@ -1,0 +1,49 @@
+/* Start Global Rules */
+:root {
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --danger: #ef4444;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+  --border: #e2e8f0;
+  --shadow: 0 15px 40px rgba(0,0,0,.15);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+.text-center {
+  text-align: center;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr clamp(70px, 15vw, 100px) clamp(70px, 15vw, 100px);
+  align-items: center;
+  min-height: 70px;
+  transition: 0.3s;
+}
+.row:hover {
+  background-color: #f8fafc;
+}
+.row:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+.row-empty {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  color: #94a3b8;
+  font-size: 16px;
+}
+/* End Global Rules */

@@ -1,0 +1,35 @@
+/* Start Todo List */
+.ListItems {
+  background: var(--card);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.ListItems span {
+  padding: 20px;
+  color: var(--text);
+  font-size: 17px;
+}
+.ListItems .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary);
+    color: white;
+    font-weight: bold;
+    height: 100%;
+}
+.ListItems .age {
+  text-align: center;
+}
+.ListItems .icon {
+  color: var(--danger);
+  cursor: pointer;
+  font-size: 22px;
+  text-align: center;
+  transition: 0.3s;
+}
+.ListItems .icon:hover {
+  transform: scale(1.15);
+}
+/* End Todo List */
