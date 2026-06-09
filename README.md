@@ -4,17 +4,18 @@ A simple and responsive Todo application built with React. Users can add tasks, 
 
 ## 🚀 Live Demo
 
-🔗 **Demo**: [https://alexander-sands.github.io/Leon/](https://your-demo-link.vercel.app) 
+🔗 **Demo**: [https://alx-react-to-do-app.vercel.app/](https://alx-react-to-do-app.vercel.app/) 
 
 ---
 
 ## ✨ Features
 
-* Add new tasks.
-* Assign estimated hours to tasks.
-* Delete tasks.
-* Responsive layout for desktop and mobile devices.
-* Unique task IDs generated using `crypto.randomUUID()`.
+- Add new tasks
+- Delete tasks
+- Track estimated hours
+- Mark tasks as completed / not completed
+- Responsive design
+- Unique task IDs generated using `crypto.randomUUID()`.
 
 ---
 
@@ -104,15 +105,13 @@ http://localhost:3000
 
 Click the delete button beside any task to remove it instantly.
 
----
+### Task Completion
 
-##  📊 Sample Data
+Each task has a completion status:
 
-| Task      | Hours |
-| --------- | ----- |
-| Todo 0001 | 4 H   |
-| Todo 0002 | 5 H   |
-| Todo 0003 | 3 H   |
+- Click on a task or button to mark it as completed
+- Completed tasks are visually highlighted
+- Tasks can be toggled between done and not done
 
 ---
 
@@ -129,4 +128,4 @@ Click the delete button beside any task to remove it instantly.
 
 ## 👤 Author
 
-Developed as a React practice project and portfolio showcase.
+Developed by AbdelRahman Khalaf as part of a continuous journey in modern front-end development and React application architecture.
