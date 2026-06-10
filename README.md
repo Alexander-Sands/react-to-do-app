@@ -4,7 +4,7 @@ A simple and responsive Todo application built with React. Users can add tasks, 
 
 ## 🚀 Live Demo
 
-🔗 **Demo**: [https://alx-react-to-do-app.vercel.app/](https://alx-react-to-do-app.vercel.app/) 
+🔗 **Demo**: [https://react-to-do-app-brown-six.vercel.app/](https://react-to-do-app-brown-six.vercel.app/) 
 
 ---
 
