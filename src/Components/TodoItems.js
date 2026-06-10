@@ -5,8 +5,8 @@ const TodoItems = (props) => {
   let length = items.length;
   const ListItems = items.map(item => {
     return (
-      <div key={item.id} className={item.completed ? "completed row" : "row"}  onClick={() => toggleComplete(item.id)}>
-        <span className="name">{item.name}</span>
+      <div key={item.id} className={item.completed ? "completed row" : "row"}>
+        <span className="name" onClick={() => toggleComplete(item.id)}>{item.name}</span>
         <span className="age">{item.hours} H</span>
         <span className="action icon" onClick={() => deleteItems(item.id)}>&times;</span>
       </div>
